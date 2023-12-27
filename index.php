@@ -60,8 +60,6 @@ require_once 'connect.php';
   </table>
   <h3>Добавить клиентa</h3>
   <form action="create_clients.php" method="post">
-    <p>ID</p>
-    <textarea name="ID"></textarea>
     <p>Фамилия</p>
     <textarea name="sname"></textarea>
     <p>Имя</p>

@@ -8,6 +8,6 @@ $mname = $_POST['tname'];
 $pnumber = $_POST['pnumber'];
 $basket = $_POST['basket'];
 
-mysqli_query($connect, "INSERT INTO `consulting`.`clients` (`SName`, `FName`, `MName`, `PNum`, `Basket`) VALUES ('$sname', '$fname', '$mname', '$pnumber', '$basket');");
+mysqli_query($connect, "INSERT INTO `delfin`.`clients` (`SName`, `FName`, `MName`, `PNum`, `Basket`) VALUES ('$sname', '$fname', '$mname', '$pnumber', '$basket');");
 
 header('Location:index.php');
